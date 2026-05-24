@@ -1,0 +1,6 @@
+{
+  "name": "LOADRYX",
+  "description": "Futuristic gaming and tactical landing page for LOADRYX precision performance platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
