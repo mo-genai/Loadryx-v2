@@ -1,20 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# LOADRYX v2
 
-# Run and deploy your AI Studio app
+Static LOADRYX v2 landing page.
 
-This contains everything you need to run your app locally.
+## Files
 
-View your app in AI Studio: https://ai.studio/apps/fe3697cc-d31f-491f-97f6-99de811827f7
+- `index.html`
+- `assets/index-BvH0-xdH.css`
+- `assets/index-C3SljfCd.js`
+- `server.cjs`
+- `package.json`
 
-## Run Locally
+## Local run
 
-**Prerequisites:**  Node.js
+```bash
+npm start
+```
 
+Then open:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```text
+http://localhost:3000
+```
+
+## Vercel settings
+
+Use it as a static site:
+
+- Framework Preset: Other
+- Build Command: `npm run build` or leave empty if Vercel allows it
+- Output Directory: `.`
