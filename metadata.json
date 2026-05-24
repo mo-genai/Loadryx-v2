@@ -1,6 +1,6 @@
 {
-  "name": "LOADRYX",
-  "description": "Futuristic gaming and tactical landing page for LOADRYX precision performance platform.",
+  "name": "LOADRYX v2",
+  "description": "Static LOADRYX v2 landing page.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }
